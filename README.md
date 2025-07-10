@@ -1,5 +1,4 @@
-# KH-Academy_250710
-
+```java
 /*
 Welcome to JDoodle!
 
@@ -23,3 +22,4 @@ public class MyClass {
     System.out.println("Sum of x+y = " + z);
   }
 }
+```
