@@ -4,5 +4,5 @@
 /**
  * 
  */
-module day01 {
+module m7_d14 {
 }
