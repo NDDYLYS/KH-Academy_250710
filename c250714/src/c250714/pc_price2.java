@@ -11,12 +11,12 @@ public class pc_price2
 		// 시간당 요금
 		int priceH = 1000;
 		//분당 요금
-		float priceM = priceH / 60f;
+		double priceM = priceH / 60.0;
 
 		// 들어온 시간
 		int comein_time = (10 * 60) + 30;
 		// 나간 시간
-		int goout_time = (16 * 60) + 15;
+		int goout_time = (12 * 60) + 30;
 		// 머무른 시간
 		int stay_time = goout_time - comein_time;
 		
