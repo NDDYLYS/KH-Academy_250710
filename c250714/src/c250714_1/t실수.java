@@ -1,18 +1,22 @@
 package c250714_1;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class t실수 
 {
 	public static void main(String[] args) 
 	{
-		// 실스 : 소숫점이 있는 수
+		// 국어점수가 75점, 수학점수가 60점, 영어점수가 88점인 학생의 총점과 과목별 평균을 구하여 출력하세요.
 		
-		float a = 1.234f;
-		double b = 1.2345;
+		// 입력
+		List<Integer> numbers = Arrays.asList(75, 60, 88);
 		
-		// double이 기본값, float은 f로 구분
-		// 큰 값은 버린다
+		// 연산
+		int sum = numbers.stream().mapToInt(Integer::intValue).sum();
+		float avrg = (sum / (float)numbers.size());
 		
-		
-		
+		// 출력
+		System.out.println(sum + " / " + avrg);
 	}
 }
