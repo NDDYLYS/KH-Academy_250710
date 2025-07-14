@@ -1241,3 +1241,8 @@ org.eclipse.jgit.errors.TransportException: https://github.com/NDDYLYS/KH-Academ
 
 !ENTRY org.eclipse.egit.ui 4 0 2025-07-14 13:44:29.821
 !MESSAGE Can't connect to any repository: https://github.com/NDDYLYS/KH-Academy_250710 (https://github.com/NDDYLYS/KH-Academy_250710: not authorized)
+
+!ENTRY org.eclipse.core.resources 2 2 2025-07-14 13:49:11.827
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2025-07-14 13:49:11.827
+!MESSAGE The project description file (.project) for 'c250714' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
