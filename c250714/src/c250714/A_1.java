@@ -1,4 +1,4 @@
-package c250714_1;
+package c250714;
 
 import java.time.LocalDate;
 
