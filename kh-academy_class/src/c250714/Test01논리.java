@@ -1,6 +1,6 @@
 package c250714;
 
-public class 논리 
+public class Test01논리 
 {
 	public static void main(String[] args) 
 	{
