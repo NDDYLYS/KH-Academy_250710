@@ -12,6 +12,9 @@ public class Test04다중조건
 		{
 			System.out.println();	
 		}
-
+		else 
+		{
+			System.out.println();	
+		}
 	}
 }
