@@ -17,18 +17,18 @@ public class Test02지각판정기
 			지각입니다
 		 * */
 		
-		Scanner sc = new Scanner(System.in);
-		System.out.print("입실 시간을 체크해주세요(hhmm) : ");
-		int in_time = sc.nextInt();
-		sc.close();
-				
-		int late_time = 910;
-		
-		boolean late = in_time > late_time;
-		
-		if (late)
-			System.out.print("지각입니다.");		
-		else 
-			System.out.print("정상 출석입니다.");
+//		Scanner sc = new Scanner(System.in);
+//		System.out.print("입실 시간을 체크해주세요(hhmm) : ");
+//		int in_time = sc.nextInt();
+//		sc.close();
+//				
+//		int late_time = 910;
+//		
+//		boolean late = in_time > late_time;
+//		
+//		if (late)
+//			System.out.print("지각입니다.");		
+//		else 
+//			System.out.print("정상 출석입니다.");
 	}
 }
