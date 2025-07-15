@@ -24,7 +24,5 @@ public class Test02문자열
 			
 			String g = "나는 오늘 \"피자\"를 먹을거야";
 			System.out.println(g);
-			
-			이윤석(890919) 시청 완료
 	}
 }
