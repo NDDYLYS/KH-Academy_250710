@@ -8,7 +8,7 @@ public class Test04다중조건
 		
 		int month = 3;
 		
-		if () 
+		if (true) 
 		{
 			System.out.println();	
 		}
