@@ -18,29 +18,32 @@ public class Test09배열뒤집기
     	System.out.print("표현할 배열의 사이즈를 입력하세요. : ");
     	Scanner sc = new Scanner(System.in);
     	
-    	
     	int arraySize = sc.nextInt();
     	sc.close();
-    	int[] array = new int[arraySize];
-    	int[] reverseArray = new int[arraySize];
     	
-    	System.out.print("array : ");
+    	int[] array = new int[arraySize];
+    	
+    	System.out.print("Array : ");
     	for(int i = 0; i < array.length; i++) 
     	{
     		array[i] = (i + 1) * 10;
-    		System.out.print(array[i] + "/");
+    		System.out.print(array[i] + " ");
     	}
     	
     	for(int i = 0; i < array.length; i++) 
     	{
-    		reverseArray[i] = array[array.length - (i + 1)];
+    		/*
+    		int swap = array[i];
+    		array[array.length - (i + 1)] = swap;
+    		array[i] = array[array.length - (i + 1)];
+    		*/
     	}
     	
     	System.out.println();
-    	System.out.print("reverseArray : ");
-    	for(int i = 0; i < reverseArray.length; i++) 
+    	System.out.print("Reverse : ");
+    	for(int i = 0; i < array.length; i++) 
     	{
-    		System.out.print(reverseArray[i] + "/");
+    		System.out.print(array[i] + " ");
     	}
     }
 }
